@@ -43,7 +43,7 @@ elForm.addEventListener('submit', function(evt){
   
     newHeader.textContent = item.name;
     newDesc.textContent = item.name2;
-    newLink.textContent = `${defaultNumber}` + item.name3;
+    newLink.textContent = Number(`${defaultNumber}` + item.name3);
   
    
     newItem.setAttribute('class', 'card w-100 p-3 pt-0 mb-2') 
