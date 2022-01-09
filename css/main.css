@@ -1,0 +1,31 @@
+.container-2{
+    padding: 0 20px !important;
+}
+
+
+.box{
+    background-color: rgba(255, 154, 87, 0.411);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
