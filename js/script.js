@@ -55,7 +55,7 @@ elForm.addEventListener('submit', function(evt){
     newHeader.setAttribute('class', 'card-title fs-3')
     newDesc.setAttribute('class', 'card-text')
     newLink.setAttribute('class', 'link')
-    newLink.setAttribute('href', "tel:`${newLink.value}`")
+    newLink.setAttribute('href', "tel:newLink.value")
 
 
     newItem.appendChild(newDiv);
