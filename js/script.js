@@ -42,7 +42,7 @@ elForm.addEventListener('submit', function(evt){
   
     newHeader.textContent = "ismi: " + item.name;
     newDesc.textContent = "qachondan beri do'stingiz: " + item.name2;
-    newLink.textContent = item.name3;
+    newLink.textContent = "telefon raqami: " + item.name3;
   
    
     newItem.setAttribute('class', 'card w-100 p-3 pt-0 mb-2') 
