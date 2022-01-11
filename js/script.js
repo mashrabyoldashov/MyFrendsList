@@ -34,16 +34,15 @@ elForm.addEventListener('submit', function(evt){
 
 
   for(let item of contacts){
-    let defaultNumber = "+998";
     let newItem = document.createElement('li');
     let newDiv = document.createElement('div');
     let newHeader = document.createElement('h5');
     let newDesc = document.createElement('p');
     let newLink = document.createElement('a');
   
-    newHeader.textContent = item.name;
-    newDesc.textContent = item.name2;
-    newLink.textContent = Number(`${defaultNumber}` + item.name3);
+    newHeader.textContent = "ismi: " + item.name;
+    newDesc.textContent = "qachondan beri do'stingiz: " + item.name2;
+    newLink.textContent = item.name3;
   
    
     newItem.setAttribute('class', 'card w-100 p-3 pt-0 mb-2') 
@@ -55,7 +54,7 @@ elForm.addEventListener('submit', function(evt){
     newHeader.setAttribute('class', 'card-title fs-3')
     newDesc.setAttribute('class', 'card-text')
     newLink.setAttribute('class', 'link')
-    newLink.setAttribute('href', "tel:newLink.value")
+    newLink.setAttribute('href', "tel:998 + item.name3")
 
 
     newItem.appendChild(newDiv);
